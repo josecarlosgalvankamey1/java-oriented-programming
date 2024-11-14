@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static void printCarDetails(Car car) {
-        System.out.println("This " + car.make + " is worth $" + car.price +
-                ". It was built in " + car.year + ". It is " + car.color + ".\n");
+        System.out.println("This " + car.getMake() + " is worth $" + car.getPrice() +
+                ". It was built in " + car.getYear() + ". It is " + car.getColor() + ".\n");
     }
 }
