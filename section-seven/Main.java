@@ -16,6 +16,16 @@ public class Main {
 
         printCarDetails(nissan);
         printCarDetails(dodge);
+
+        nissan.setColor("Jet  Black");
+        dodge.setColor("Jet Black");
+
+        nissan.setPrice(nissan.getPrice() / 2);
+        dodge.setPrice(dodge.getPrice() / 2);
+
+        printCarDetails(nissan);
+        printCarDetails(dodge);
+
     }
 
     public static void printCarDetails(Car car) {
