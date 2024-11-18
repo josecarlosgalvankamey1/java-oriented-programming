@@ -15,27 +15,28 @@ public class Main {
         // dodge.year = 2019;
         // dodge.color = "blue";
 
-        printCarDetails(nissan);
-        printCarDetails(nissan2);
-        printCarDetails(dodge);
+        // printCarDetails(nissan);
+        // printCarDetails(nissan2);
+        // printCarDetails(dodge);
 
         // nissan.setColor("Jet Black");
         // dodge.setColor("Jet Black");
 
-        nissan2.setColor("Yellow");
-        nissan.setColor("Orange");
-        nissan2.setColor("Blue");
-        nissan.setColor("Purple");
-        nissan2.setColor("Fuchsia");
-        nissan.setColor("Beige");
+        // nissan2.setColor("Yellow");
+        // nissan.setColor("Orange");
+        // nissan2.setColor("Blue");
+        // nissan.setColor("Purple");
+        // nissan2.setColor("Fuchsia");
+        // nissan.setColor("Beige");
 
         // nissan.setPrice(nissan.getPrice() / 2);
         // dodge.setPrice(dodge.getPrice() / 2);
 
-        printCarDetails(nissan);
-        printCarDetails(nissan2);
-        printCarDetails(dodge);
+        // printCarDetails(nissan);
+        // printCarDetails(nissan2);
+        // printCarDetails(dodge);
 
+        nissan2.drive();
     }
 
     public static void printCarDetails(Car car) {
