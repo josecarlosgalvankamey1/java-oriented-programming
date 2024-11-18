@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Car nissan = new Car("Nissan", 10000, 2020, "gray");
+        Car nissan2 = new Car(nissan);
 
         // nissan.make = "Nissan";
         // nissan.price = 10000;
@@ -15,15 +16,24 @@ public class Main {
         // dodge.color = "blue";
 
         printCarDetails(nissan);
+        printCarDetails(nissan2);
         printCarDetails(dodge);
 
-        nissan.setColor("Jet  Black");
-        dodge.setColor("Jet Black");
+        // nissan.setColor("Jet Black");
+        // dodge.setColor("Jet Black");
 
-        nissan.setPrice(nissan.getPrice() / 2);
-        dodge.setPrice(dodge.getPrice() / 2);
+        nissan2.setColor("Yellow");
+        nissan.setColor("Orange");
+        nissan2.setColor("Blue");
+        nissan.setColor("Purple");
+        nissan2.setColor("Fuchsia");
+        nissan.setColor("Beige");
+
+        // nissan.setPrice(nissan.getPrice() / 2);
+        // dodge.setPrice(dodge.getPrice() / 2);
 
         printCarDetails(nissan);
+        printCarDetails(nissan2);
         printCarDetails(dodge);
 
     }
