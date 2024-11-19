@@ -63,6 +63,15 @@ public class Car {
         this.parts = Arrays.copyOf(parts, parts.length);
     }
 
+    @Override
+    public String toString() {
+        return "Make: " + this.make + ".\n"
+                + "Price: " + this.price + ".\n"
+                + "Year: " + this.year + ".\n"
+                + "Color: " + this.color + ".\n"
+                + "Parts: " + Arrays.toString(parts) + ".\n";
+    }
+
     public void drive() {
         System.out.println("\nYou bought the beautiful " + this.year + " " + this.color + " " + this.make + " for $"
                 + this.price + ".");
